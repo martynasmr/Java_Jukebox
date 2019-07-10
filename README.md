@@ -588,7 +588,7 @@ public class Jukeboxinerface extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
 
-// The MetaData function colects data abbout the data i am working with                        
+// The MetaData function colects data about the data i am working with                        
             ResultSetMetaData rsmetadata = rs.getMetaData();
             
 // The columns integer collects information on how much columns there are in the data            
@@ -666,7 +666,7 @@ public class Jukeboxinerface extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
 
-// The MetaData function colects data abbout the data i am working with            
+// The MetaData function colects data about the data i am working with            
             
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount();
@@ -755,7 +755,7 @@ public class Jukeboxinerface extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
 
-// The MetaData function colects data abbout the data i am working with              
+// The MetaData function colects data about the data i am working with              
             
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() +1 ;
@@ -844,7 +844,7 @@ String SQL = "update song \n" +
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with              
+// The MetaData function colects data about the data i am working with              
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() +1 ;
@@ -1288,7 +1288,7 @@ public class interfacee extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with             
+// The MetaData function colects data about the data i am working with             
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -1415,7 +1415,7 @@ String SQL = " DELETE FROM playlist\n"
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
 
-// The MetaData function colects data abbout the data i am working with                        
+// The MetaData function colects data about the data i am working with                        
             
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount();
@@ -1531,7 +1531,7 @@ String SQL = " DELETE FROM playlist\n"
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with              
+// The MetaData function colects data about the data i am working with              
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount();
@@ -1607,7 +1607,7 @@ String SQL = " DELETE FROM playlist\n"
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with             
+// The MetaData function colects data about the data i am working with             
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount();
@@ -1677,7 +1677,7 @@ String SQL = " DELETE FROM playlist\n"
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with             
+// The MetaData function colects data about the data i am working with             
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -1767,7 +1767,7 @@ String SQL = " DELETE FROM playlist\n"
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with             
+// The MetaData function colects data about the data i am working with             
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount();
@@ -1877,7 +1877,7 @@ String SQL = " DELETE FROM playlist\n"
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with                         
+// The MetaData function colects data about the data i am working with                         
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -2381,7 +2381,7 @@ public class ratings extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with             
+// The MetaData function colects data about the data i am working with             
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -2462,7 +2462,7 @@ public class ratings extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with             
+// The MetaData function colects data about the data i am working with             
            
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -2551,7 +2551,7 @@ public class ratings extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with                         
+// The MetaData function colects data about the data i am working with                         
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -2631,7 +2631,7 @@ public class ratings extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);       
             
-// The MetaData function colects data abbout the data i am working with                         
+// The MetaData function colects data about the data i am working with                         
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -2734,7 +2734,7 @@ public class ratings extends javax.swing.JFrame {
             Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
 
-// The MetaData function colects data abbout the data i am working with                         
+// The MetaData function colects data about the data i am working with                         
             
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
@@ -2807,7 +2807,7 @@ public class ratings extends javax.swing.JFrame {
              Statement stmt = con.createStatement();
             ResultSet rs = stmt.executeQuery(SQL);
             
-// The MetaData function colects data abbout the data i am working with                         
+// The MetaData function colects data about the data i am working with                         
 
             ResultSetMetaData rsmetadata = rs.getMetaData();
             int columns = rsmetadata.getColumnCount() + 1;
